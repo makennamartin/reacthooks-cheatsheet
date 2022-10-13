@@ -1,6 +1,5 @@
-import React,{useState} from "react";
+import React from "react";
 import code from '../assets/usestate.png';
-import ModalState from "./modals/ModalState";
 
 const UseState = () => {
      return(
