@@ -112,10 +112,12 @@ p, h1, h2, h3, h4, h5, h6 {
   transform-origin: bottom left;
 }
 
+
+@media only screen and (min-width: 1000px)  {
 // scrollbar
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
   
 }
 
@@ -133,4 +135,5 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #9D40D8;
+}
 }

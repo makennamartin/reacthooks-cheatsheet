@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="tooltip hover:tooltip-open tooltip-right" data-tip="Created by Makenna Martin">
                 <img src={mlogo} height="70px" width="70px"  alt="..."/>
             </div>
-            <a href="www.makenna-martin.com" className="font-semibold text-[#678FFF] hover-underline-animation">makenna-martin.com</a>
+            <a href="http://www.makenna-martin.com" className="font-semibold text-[#678FFF] hover-underline-animation">makenna-martin.com</a>
         </nav>
 
      )
