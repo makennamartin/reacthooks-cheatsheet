@@ -37,13 +37,13 @@ function App() {
       <nav className='fixed z-30 w-full transform-gpu transition duration-300 ease-in-out bg-bluegray-900 bg-opacity-90 shadow-lg backdrop-blur-md flex flex-row justify-between p-5'>
         <h1 className={navbg ? "poppins-reg font-semibold " : "hidden" }>React Hooks Cheatsheet</h1>
         <div className={navbg ? "w-1/2 flex justify-between invisible lg:visible" : "hidden"} >
-          <a href="/#usestate" className={navStyle}>useState</a>
-          <a href="/#usereducer" className={navStyle}>useReducer</a>
-          <a href="/#useref" className={navStyle}>useRef</a>
-          <a href="/#usememo" className={navStyle}>useMemo</a>
-          <a href="/#usecallback" className={navStyle}>useCallback</a>
-          <a href="/#useeffect" className={navStyle}>useEffect</a>
-          <a href="/#usecontext" className={navStyle}>useContext</a>
+          <a href="/reacthooks-cheatsheet/#usestate" className={navStyle}>useState</a>
+          <a href="/reacthooks-cheatsheet/#usereducer" className={navStyle}>useReducer</a>
+          <a href="/reacthooks-cheatsheet/#useref" className={navStyle}>useRef</a>
+          <a href="/reacthooks-cheatsheet/#usememo" className={navStyle}>useMemo</a>
+          <a href="/reacthooks-cheatsheet/#usecallback" className={navStyle}>useCallback</a>
+          <a href="/reacthooks-cheatsheet/#useeffect" className={navStyle}>useEffect</a>
+          <a href="/reacthooks-cheatsheet/#usecontext" className={navStyle}>useContext</a>
         </div>
       </nav>
 
