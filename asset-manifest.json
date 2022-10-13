@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reacthooks-cheatsheet/static/css/main.db969f83.css",
-    "main.js": "/reacthooks-cheatsheet/static/js/main.84c98ee1.js",
+    "main.css": "/reacthooks-cheatsheet/static/css/main.19826bc9.css",
+    "main.js": "/reacthooks-cheatsheet/static/js/main.0228c82a.js",
     "static/js/787.f2e22480.chunk.js": "/reacthooks-cheatsheet/static/js/787.f2e22480.chunk.js",
     "static/media/usememo.png": "/reacthooks-cheatsheet/static/media/usememo.c1e4337b85fbd08646f6.png",
     "static/media/usereducer.png": "/reacthooks-cheatsheet/static/media/usereducer.af34f907b550cfbb9648.png",
@@ -18,12 +18,12 @@
     "static/media/e1.png": "/reacthooks-cheatsheet/static/media/e1.a66cefc3b7900cf8aa68.png",
     "static/media/e4.png": "/reacthooks-cheatsheet/static/media/e4.63d08781062e662d69b4.png",
     "index.html": "/reacthooks-cheatsheet/index.html",
-    "main.db969f83.css.map": "/reacthooks-cheatsheet/static/css/main.db969f83.css.map",
-    "main.84c98ee1.js.map": "/reacthooks-cheatsheet/static/js/main.84c98ee1.js.map",
+    "main.19826bc9.css.map": "/reacthooks-cheatsheet/static/css/main.19826bc9.css.map",
+    "main.0228c82a.js.map": "/reacthooks-cheatsheet/static/js/main.0228c82a.js.map",
     "787.f2e22480.chunk.js.map": "/reacthooks-cheatsheet/static/js/787.f2e22480.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db969f83.css",
-    "static/js/main.84c98ee1.js"
+    "static/css/main.19826bc9.css",
+    "static/js/main.0228c82a.js"
   ]
 }
