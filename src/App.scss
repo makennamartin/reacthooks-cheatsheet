@@ -1,0 +1,136 @@
+// css resets
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding:0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+// fonts
+@font-face {
+  font-family:"poppins-reg";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./Poppins-Regular.ttf")format("truetype");
+}
+@font-face {
+  font-family:"poppins-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./Poppins-Bold.ttf") format("truetype");
+}
+.poppins-bold{
+  font-family: 'poppins-bold';
+}
+.poppins-reg{
+  font-family: 'poppins-reg';
+}
+
+// colors
+.purple-gradient{
+  background:linear-gradient(99deg, rgb(64, 34, 71) 44.26%, rgb(167, 66, 230) 69.14%, rgb(38, 34, 71) 96.8%)
+}
+.blue-gradient{
+  background:linear-gradient(104.28deg, rgb(38, 34, 71) 1.24%, rgb(57, 92, 200) 32.96%, rgb(38, 34, 71) 68.22%)
+}
+.blue-text{
+  color:rgb(103 143 255/1)
+}
+.bg-home-back {
+  background-color: rgb(8 6 36/1)
+}
+
+// app styles
+.App {
+  background-color: rgb(8 6 36/1);
+}
+
+.container {
+  min-height:100vh;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+#main{
+  height:100vh;
+  width:100vw;
+}
+
+.item {
+  background:radial-gradient(100% 100% at 50% 0%, rgb(78, 40, 183) 48.71%, rgb(151, 38, 213) 100%);
+  font-family: 'poppins-reg';
+  margin-bottom: 30px!important;
+}
+
+.item img {
+  box-shadow: 5px 5px 5px black;
+}
+
+// animations
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #678FFF;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #678FFF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+// scrollbar
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(8 6 36/1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9D40D8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9D40D8;
+}
